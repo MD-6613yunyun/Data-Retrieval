@@ -133,7 +133,7 @@ if __name__ == "__main__":
         # Declaration of authentication with the UID
         file.write(f"Authenticated with the unique ID - {mmm.uid}" + "\n")
         # looping through the declared model and process the retrieval
-        for i in range(6):
+        for i in range(7):
             # write the result and model name to the file
             file.write(model_names[i] + str(mmm.track_lines(models_obj, models_check_in[i])) + "\n")
         # account modules name to be checked in
